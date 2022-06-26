@@ -57,7 +57,7 @@ var promise = new Promise(function (resolve, reject) {
     //Thành công resolve();
     // có thể truyền tham sô vào resolve để thằng then nhận
     // Thất bại reject();
-    // có thể truyền tham sô vào resolve để thằng catch nhận
+    // có thể truyền tham sô vào reject để thằng catch nhận
     //==== Ví dụ====
     resolve([
         {
