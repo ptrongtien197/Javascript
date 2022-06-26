@@ -1,17 +1,17 @@
 // Callback hell
 
-// setTimeout(() => {
-//     console.log(1); // work 1
-//     setTimeout(() => {
-//         console.log(2); // work 2
-//         setTimeout(() => {
-//             console.log(3); // work 3
-//             setTimeout(() => {
-//                 console.log(4); // work 4
-//             }, 1000);
-//         }, 1000);
-//     }, 1000);
-// }, 1000);
+setTimeout(() => {
+    console.log(1); // work 1
+    setTimeout(() => {
+        console.log(2); // work 2
+        setTimeout(() => {
+            console.log(3); // work 3
+            setTimeout(() => {
+                console.log(4); // work 4
+            }, 1000);
+        }, 1000);
+    }, 1000);
+}, 1000);
 
 // 1. new Promise
 // 2. Executor
